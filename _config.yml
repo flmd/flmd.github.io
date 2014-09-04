@@ -1,0 +1,15 @@
+title:            Flavored Markdown
+tagline:          A repository of variant Markdown documentation
+url:              http://flavoredmarkdown.com
+baseurl:          /
+
+collections:
+  flavors:
+    output: true
+    permalink: /:path/
+defaults:
+- scope:
+    path: ""
+    type: flavors
+  values:
+    layout: page
