@@ -11,14 +11,14 @@ title: Home
 
 <h2>Currently Documented Flavors</h2>
 
-<div class="flavors">
+<ul class="flavors">
   {% for flavor in site.flavors %}
-  <div class="post">
+  <li>
     <h3 class="post-title">
       <a href="{{ flavor.url }}">
         {{ flavor.title }}
       </a>
     </h3>
-  </div>
+  </li>
   {% endfor %}
-</div>
+</ul>
